@@ -1,9 +1,9 @@
 from random import random
-
+from .player import Player
 
 import random
 
-class Ai:
+class Ai(Player):
 	def __init__(self):
 		self.guesses = 0
 		self.min = 1

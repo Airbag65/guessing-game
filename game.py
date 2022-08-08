@@ -11,7 +11,7 @@ class Game:
 		self.player = Player(p_name)
 		self.ai = Ai()
 		print(f"""
-		Greetings {self.player.name}!\n
+		Welcome {self.player.name}!\n
 This is a Guessing Game! Your goal is to guess a random number 
 between 1 and 50! You are also facing an AI opponent. 
 You and the AI will take turns guessing the correct number! 
@@ -42,7 +42,7 @@ The first one to get it right, wins!\n
 		
 	def play(self):
 		os.system("cls" if os.name == "nt" else "clear")
-		print(f"The game has begun!\n{self.player.name} begins!")
+		print(f"\nThe game has begun!\n{self.player.name} begins!")
 		
 		while not self.game_over:
 			p_guess = self.player.guess()

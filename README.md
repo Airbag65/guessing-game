@@ -1,1 +1,3 @@
-#guessing-game
+# guessing-game
+
+tiny project because i was bored
